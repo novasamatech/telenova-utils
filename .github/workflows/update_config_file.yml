@@ -23,7 +23,7 @@ jobs:
         run: npm run update:chains-file
 
       - name: Make Pull Request
-        uses: ./.github/workflows/make-pull-request
+        uses: ./.github/actions/make-pull-request
         with:
           commit-files: |
             ./chains/**/*.json
