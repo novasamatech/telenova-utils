@@ -20,10 +20,7 @@
       },
       {
         "url": "wss://apps-rpc.polkadot.io",
-        "name": "Public node",
-        "features": [
-          "noTls12"
-        ]
+        "name": "Public node"
       },
       {
         "url": "wss://polkadot-rpc.dwellir.com",
@@ -76,10 +73,7 @@
       },
       {
         "url": "wss://apps-kusama-rpc.polkadot.io",
-        "name": "Public node",
-        "features": [
-          "noTls12"
-        ]
+        "name": "Public node"
       },
       {
         "url": "wss://kusama-rpc.dwellir.com",

@@ -52,8 +52,8 @@ function getTransformedData(rawData) {
     const nodes = chain.nodes
       .filter(node => !node.url.includes('{'))
       .map(node => ({
-        name: node.name,
         url: node.url,
+        name: node.name
       }));
 
     const updatedChain = {
