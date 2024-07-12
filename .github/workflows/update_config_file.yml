@@ -28,7 +28,6 @@ jobs:
         with:
           commit-files: |
             ./chains/**/*.json
-            ./tokens/**/*.json
           commit-message: "ci: update config files"
           app-id: ${{ secrets.NOVASAMA_APP_ID }}
           app-token: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
