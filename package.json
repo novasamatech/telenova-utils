@@ -1,0 +1,23 @@
+{
+  "name": "telenova-utils",
+  "version": "1.0.0",
+  "description": "Configuration repo for the Telenova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:chains": "node scripts/buildChainsJson.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novasamatech/telenova-utils.git"
+  },
+  "author": "Novasama Technologies",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/novasamatech/telenova-utils/issues"
+  },
+  "homepage": "https://github.com/novasamatech/telenova-utils#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}

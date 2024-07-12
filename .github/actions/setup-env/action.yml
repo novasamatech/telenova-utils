@@ -1,0 +1,16 @@
+name: Set necesary env
+description: Set necessary env variables
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        repository: 'novasamatech/nova-utils'
+        path: 'nova-utils'
+
+    - name: Setup version to variables
+      run: |
+        echo "TELENOVA_CONFIG_VERSION=$(bash .github/get_actual_path.sh chains)" >> "$GITHUB_ENV"
+        echo "NOVA_CONFIG_VERSION=$(bash .github/get_actual_path.sh nova-utils/chains)" >> "$GITHUB_ENV"
+      shell: bash
