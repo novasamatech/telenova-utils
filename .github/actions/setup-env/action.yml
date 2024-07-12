@@ -1,4 +1,4 @@
-name: Set necesary env
+name: Set necessary env
 description: Set necessary env variables
 runs:
   using: "composite"
