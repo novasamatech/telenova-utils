@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: 📝 Update chains file
-        run: npm run update:chains-file
+        run: npm run build:chains
 
       - name: Make Pull Request
         uses: ./.github/actions/make-pull-request
