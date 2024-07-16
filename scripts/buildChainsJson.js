@@ -1,9 +1,16 @@
 const path = require('path');
 const { writeFile } = require('fs/promises');
 const axios = require('axios');
+const { z } = require('zod');
 
-const NOVA_CONFIG_VERSION = process.env.NOVA_CONFIG_VERSION;
-const TELENOVA_CONFIG_VERSION = process.env.TELENOVA_CONFIG_VERSION;
+const envSchema = z.object({
+  NOVA_CONFIG_VERSION: z.string(),
+  TELENOVA_CONFIG_VERSION: z.string(),
+});
+const env = envSchema.parse(process.env);
+
+const NOVA_CONFIG_VERSION = env.NOVA_CONFIG_VERSION;
+const TELENOVA_CONFIG_VERSION = env.TELENOVA_CONFIG_VERSION;
 const CONFIG_PATH = `chains/${TELENOVA_CONFIG_VERSION}/`;
 const TELENOVA_CONFIG_URL = `https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/${NOVA_CONFIG_VERSION}/`;
 
