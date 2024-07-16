@@ -42,30 +42,22 @@ function fillAssetData(chain) {
 
 
 function getTransformedData(rawData) {
-  const filteredData = rawData.filter(chain => {
-    const isAllowedChain = chain.chainId in ALLOWED_CHAINS;
-    return isAllowedChain;
-  });
+  const filteredData = rawData.filter(chain => chain.chainId in ALLOWED_CHAINS);
 
   return filteredData.map((chain, index) => {
-    const assets = fillAssetData(chain)
+    const assets = fillAssetData(chain);
     const nodes = chain.nodes
       .filter(node => !node.url.includes('{'))
-      .map(node => ({
-        url: node.url,
-        name: node.name
-      }));
+      .map(node => ({ url: node.url, name: node.name }));
 
-    const updatedChain = {
+    return {
       name: chain.name,
       chainIndex: index,
       addressPrefix: chain.addressPrefix,
       chainId: `0x${chain.chainId}`,
       assets,
-      nodes: nodes,
+      nodes,
     };
-
-    return updatedChain;
   });
 }
 
