@@ -23,7 +23,8 @@ async function getDataViaHttp(url, filePath) {
 
     return response.data;
   } catch (error) {
-    console.log('Error: ', error?.message || 'getDataViaHttp failed');
+    console.error('🔴 Error in getDataViaHttp: ', error?.message || 'getDataViaHttp failed');
+    process.exit(1);
   }
 }
 
