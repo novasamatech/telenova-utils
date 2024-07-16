@@ -13,7 +13,7 @@ const TELENOVA_CONFIG_VERSION = env.TELENOVA_CONFIG_VERSION;
 const CONFIG_PATH = `chains/${TELENOVA_CONFIG_VERSION}/`;
 const TELENOVA_CONFIG_URL = `https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/${NOVA_CONFIG_VERSION}/`;
 
-const CHAINS_ENV = ['chains_dev.json', 'chains.json'];
+const CHAINS_ENV = ['chains_dev.json', 'chains_prod.json'];
 const ALLOWED_CHAINS = require('./data/allowedChains.json');
 
 async function getDataViaHttp(url, filePath) {
