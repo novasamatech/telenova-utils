@@ -13,7 +13,7 @@ const TELENOVA_CONFIG_VERSION = env.TELENOVA_CONFIG_VERSION;
 const CONFIG_PATH = `chains/${TELENOVA_CONFIG_VERSION}/`;
 const TELENOVA_CONFIG_URL = `https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/${NOVA_CONFIG_VERSION}/`;
 
-const CHAINS_ENV = ['chains_dev.json', 'chains_prod.json'];
+const CHAINS_ENV = ['chains_dev.json', 'chains.json'];
 const ALLOWED_CHAINS = require('./data/allowedChains.json');
 
 async function getDataViaHttp(url, filePath) {
@@ -32,20 +32,21 @@ async function getDataViaHttp(url, filePath) {
 function fillAssetData(chain) {
   const assetsList = [];
   const allowedAssets = ALLOWED_CHAINS[chain.chainId]?.assets || [];
+  const allowedAssetsMap = new Map(allowedAssets.map(asset => [asset.symbol, asset]));
 
-  chain.assets.map(asset => {
-    const allowedAsset = allowedAssets.find(a => a.symbol === asset.symbol);
-    if (allowedAsset) {
-      assetsList.push({
-        assetId: asset.assetId,
-        symbol: asset.symbol,
-        precision: asset.precision,
-        type: asset.type,
-        priceId: asset.priceId,
-        name: allowedAsset.name,
-      });
-    }
-  });
+  for (const asset of chain.assets) {
+    const allowedAsset = allowedAssetsMap.get(asset.symbol);
+    if (!allowedAsset) continue;
+
+    assetsList.push({
+      assetId: asset.assetId,
+      symbol: asset.symbol,
+      precision: asset.precision,
+      type: asset.assetId === 0 ? 'native' : asset.type,
+      priceId: asset.priceId,
+      name: allowedAsset.name,
+    });
+  }
   return assetsList;
 }
 
@@ -85,7 +86,8 @@ async function buildFullChainsJSON() {
     try {
       const novaChainsConfig = await getDataViaHttp(TELENOVA_CONFIG_URL, chain);
       const modifiedData = await getTransformedData(novaChainsConfig);
-      await saveNewFile(modifiedData, chain);
+      const saveAs = chain === 'chains.json' ? 'chains_prod.json' : 'chains_dev.json';
+      await saveNewFile(modifiedData, saveAs);
       console.log('❇️ Successfully generated for: ' + chain);
     } catch (e) {
       console.error('️🔴 Error for: ', chain, e);

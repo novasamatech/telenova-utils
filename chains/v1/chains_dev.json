@@ -9,6 +9,7 @@
         "assetId": 0,
         "symbol": "DOT",
         "precision": 10,
+        "type": "native",
         "priceId": "polkadot",
         "name": "Polkadot"
       }
@@ -62,6 +63,7 @@
         "assetId": 0,
         "symbol": "KSM",
         "precision": 12,
+        "type": "native",
         "priceId": "kusama",
         "name": "Kusama"
       }
@@ -115,6 +117,7 @@
         "assetId": 0,
         "symbol": "WND",
         "precision": 12,
+        "type": "native",
         "name": "Westend"
       }
     ],
