@@ -1,6 +1,5 @@
 const path = require('path');
 const { writeFile } = require('fs/promises');
-const axios = require('axios');
 const { z } = require('zod');
 
 const envSchema = z.object({
@@ -19,9 +18,11 @@ const ALLOWED_CHAINS = require('./data/allowedChains.json');
 
 async function getDataViaHttp(url, filePath) {
   try {
-    const response = await axios.get(url + filePath);
-
-    return response.data;
+    const response = await fetch(url + filePath);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
   } catch (error) {
     console.error('🔴 Error in getDataViaHttp: ', error?.message || 'getDataViaHttp failed');
     process.exit(1);
@@ -47,7 +48,6 @@ function fillAssetData(chain) {
   });
   return assetsList;
 }
-
 
 function getTransformedData(rawData) {
   const filteredData = rawData.filter(chain => chain.chainId in ALLOWED_CHAINS);
