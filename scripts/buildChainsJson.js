@@ -1,6 +1,7 @@
 const path = require('path');
 const { writeFile } = require('fs/promises');
 const { z } = require('zod');
+const fs = require('fs');
 
 const envSchema = z.object({
   NOVA_CONFIG_VERSION: z.string(),
@@ -8,6 +9,7 @@ const envSchema = z.object({
 });
 const env = envSchema.parse(process.env);
 
+const ASSET_ICONS_DIR = `icons/v1/assets/white`
 const NOVA_CONFIG_VERSION = env.NOVA_CONFIG_VERSION;
 const TELENOVA_CONFIG_VERSION = env.TELENOVA_CONFIG_VERSION;
 const CONFIG_PATH = `chains/${TELENOVA_CONFIG_VERSION}/`;
@@ -45,6 +47,7 @@ function fillAssetData(chain) {
       type: asset.assetId === 0 ? 'native' : asset.type,
       priceId: asset.priceId,
       name: allowedAsset.name,
+      icon: replaceUrl(asset.icon, 'asset', asset.symbol),
     });
   }
   return assetsList;
@@ -66,8 +69,63 @@ function getTransformedData(rawData) {
       chainId: `0x${chain.chainId}`,
       assets,
       nodes,
+      icon: replaceUrl(chain.icon, 'chain'),
     };
   });
+}
+
+function replaceUrl(url, type, name = undefined) {
+  const changedBaseUrl = url.replace("nova-utils/master", "telenova-utils/main");
+  const lastPartOfUrl = url.split("/").pop()
+
+  // handling for 'xc' prefixed token names
+  const processedName = name ? name.replace(/^xc/, '') : name;
+
+  switch (type) {
+    case "chain":
+      return changedBaseUrl.replace(
+        /\/icons\/.*/,
+        `/icons/${TELENOVA_CONFIG_VERSION}/chains/${lastPartOfUrl}`
+      );
+    case "asset":
+      const tickerNames = [processedName, processedName.split("-")[0]];
+      const relativePath = findFileByTicker(tickerNames, ASSET_ICONS_DIR);
+      if (!relativePath) {
+        console.error(`Can't find file for: ${processedName} in: ${ASSET_ICONS_DIR}`);
+        return changedBaseUrl.replace(/\/icons\/.*/, `/${processedName}`);
+      }
+
+      return changedBaseUrl.replace(/\/icons\/.*/, `/${relativePath}`);
+    default:
+      throw new Error("Unknown type: " + type);
+  }
+}
+
+function findFileByTicker(tickers, dirPath) {
+  const [fullName, shortName, mappedName] = tickers;
+
+  try {
+    const files = fs.readdirSync(dirPath);
+    // Loop through files to find match based on ticker pattern
+    for (let i = 0; i < files.length; i++) {
+      // Check if file satisfies ticker pattern
+      const currentFile = files[i];
+
+      const byFullName = new RegExp(`^${fullName}.svg\\b|\\(${fullName}\\)\\.svg`, "i");
+      const byShortName = new RegExp(`^${shortName}.svg\\b|\\(${shortName}\\)\\.svg`, "i");
+      const byMappedName = new RegExp(`^${mappedName}.svg\\b|\\(${mappedName}\\)\\.svg`, "i");
+
+      if (
+          currentFile.match(byFullName)
+          || currentFile.match(byShortName)
+          || currentFile.match(byMappedName)
+      ) {
+        return path.join(dirPath, currentFile);
+      }
+    }
+  } catch (error) {
+    throw new Error(error);
+  }
 }
 
 async function saveNewFile(newJson, file_name) {
