@@ -1,0 +1,39 @@
+name: Update config files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+
+jobs:
+  update-config-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: 🛠 Set up env variables
+        uses: ./.github/actions/setup-env
+
+      - name: ⚙️ Install dependencies
+        run: npm install
+
+      - name: 📝 Update chains file
+        run: npm run build:chains
+
+      - name: Make Pull Request
+        uses: ./.github/actions/make-pull-request
+        with:
+          commit-files: |
+            ./chains/**/*.json
+          commit-message: "CI: Update config files"
+          app-id: ${{ secrets.NOVASAMA_APP_ID }}
+          app-token: ${{ secrets.NOVASAMA_APP_PRIVATE_KEY }}
+          branch-name: update-chains-file
+          pr-title: "Update config files"
+          pr-body: |
+            This PR was generated automatically by the GitHub Action, **update-config-files**.
+
+            Feel free to close this PR if the changes are not needed.
+          pr-base: main
