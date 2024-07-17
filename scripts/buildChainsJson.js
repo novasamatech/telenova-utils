@@ -67,9 +67,9 @@ function getTransformedData(rawData) {
       chainIndex: index,
       addressPrefix: chain.addressPrefix,
       chainId: `0x${chain.chainId}`,
+      icon: replaceUrl(chain.icon, 'chain'),
       assets,
       nodes,
-      icon: replaceUrl(chain.icon, 'chain'),
     };
   });
 }

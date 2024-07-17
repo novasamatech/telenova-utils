@@ -4,6 +4,7 @@
     "chainIndex": 0,
     "addressPrefix": 0,
     "chainId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Polkadot.svg",
     "assets": [
       {
         "assetId": 0,
@@ -52,14 +53,14 @@
         "url": "wss://rpc.dotters.network/polkadot",
         "name": "Dotters Net node"
       }
-    ],
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Polkadot.svg"
+    ]
   },
   {
     "name": "Kusama",
     "chainIndex": 1,
     "addressPrefix": 2,
     "chainId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Kusama.svg",
     "assets": [
       {
         "assetId": 0,
@@ -108,14 +109,14 @@
         "url": "wss://kusama.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
-    ],
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Kusama.svg"
+    ]
   },
   {
     "name": "Westend",
     "chainIndex": 2,
     "addressPrefix": 42,
     "chainId": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Westend_Testnet.svg",
     "assets": [
       {
         "assetId": 0,
@@ -147,14 +148,14 @@
         "url": "wss://westend.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
-    ],
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Westend_Testnet.svg"
+    ]
   },
   {
     "name": "Polkadot Asset Hub",
     "chainIndex": 3,
     "addressPrefix": 0,
     "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Polkadot_Asset_Hub.svg",
     "assets": [
       {
         "assetId": 1,
@@ -183,7 +184,6 @@
         "url": "wss://statemint.api.onfinality.io/public-ws",
         "name": "OnFinality node"
       }
-    ],
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Polkadot_Asset_Hub.svg"
+    ]
   }
 ]
