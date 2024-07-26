@@ -9,7 +9,7 @@ const envSchema = z.object({
 });
 const env = envSchema.parse(process.env);
 
-const ASSET_ICONS_DIR = `icons/v1/assets/white`
+const ASSET_ICONS_DIR = `icons/v1/assets/color`
 const NOVA_CONFIG_VERSION = env.NOVA_CONFIG_VERSION;
 const TELENOVA_CONFIG_VERSION = env.TELENOVA_CONFIG_VERSION;
 const CONFIG_PATH = `chains/${TELENOVA_CONFIG_VERSION}/`;
