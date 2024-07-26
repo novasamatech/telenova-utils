@@ -13,7 +13,7 @@
         "type": "native",
         "priceId": "polkadot",
         "name": "Polkadot",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/white/DOT.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/DOT.svg"
       }
     ],
     "nodes": [
@@ -69,7 +69,7 @@
         "type": "native",
         "priceId": "kusama",
         "name": "Kusama",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/white/KSM.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/KSM.svg"
       }
     ],
     "nodes": [
@@ -124,7 +124,7 @@
         "precision": 12,
         "type": "native",
         "name": "Westend",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/white/WND.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/WND.svg"
       }
     ],
     "nodes": [
@@ -164,7 +164,7 @@
         "type": "statemine",
         "priceId": "tether",
         "name": "USD Tether",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/white/USDT.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDT.svg"
       }
     ],
     "nodes": [
