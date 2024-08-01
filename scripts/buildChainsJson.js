@@ -7,11 +7,11 @@ const envSchema = z.object({
   NOVA_CONFIG_VERSION: z.string(),
   TELENOVA_CONFIG_VERSION: z.string(),
 });
-const env = envSchema.parse(process.env);
+const ENV = envSchema.parse(process.env);
 
 const ASSET_ICONS_DIR = `icons/v1/assets/color`
-const NOVA_CONFIG_VERSION = env.NOVA_CONFIG_VERSION;
-const TELENOVA_CONFIG_VERSION = env.TELENOVA_CONFIG_VERSION;
+const NOVA_CONFIG_VERSION = ENV.NOVA_CONFIG_VERSION;
+const TELENOVA_CONFIG_VERSION = ENV.TELENOVA_CONFIG_VERSION;
 const CONFIG_PATH = `chains/${TELENOVA_CONFIG_VERSION}/`;
 const TELENOVA_CONFIG_URL = `https://raw.githubusercontent.com/novasamatech/nova-utils/master/chains/${NOVA_CONFIG_VERSION}/`;
 
@@ -24,7 +24,7 @@ async function getDataViaHttp(url, filePath) {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    return await response.json();
+    return response.json();
   } catch (error) {
     console.error('🔴 Error in getDataViaHttp: ', error?.message || 'getDataViaHttp failed');
     process.exit(1);
@@ -42,14 +42,17 @@ function fillAssetData(chain) {
 
     assetsList.push({
       assetId: asset.assetId,
+      chainId: chain.chainId,
       symbol: asset.symbol,
       precision: asset.precision,
       type: asset.assetId === 0 ? 'native' : asset.type,
       priceId: asset.priceId,
       name: allowedAsset.name,
       icon: replaceUrl(asset.icon, 'asset', asset.symbol),
+      typeExtras: asset.typeExtras,
     });
   }
+
   return assetsList;
 }
 
