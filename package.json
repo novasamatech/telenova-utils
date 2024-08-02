@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:chains": "node scripts/buildChainsJson.js"
+    "build:chains": "node scripts/build-chains.js"
   },
   "repository": {
     "type": "git",
