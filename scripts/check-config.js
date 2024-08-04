@@ -129,7 +129,7 @@ function deleteUnusedIcons() {
                 traverseIconsDir(fullPath);
             } else if (path.extname(file) === '.svg') {
                 const relativePath = fullPath.split('icons/v1')[1].replace(/\\/g, '/');
-                const iconPath = `/telenova-utils/main/icons/v1${relativePath}`;
+                const iconPath = `https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1${relativePath}`;
                 
                 if (!allReferencedIcons.has(iconPath)) {
                     console.log(`Deleting unused icon: ${fullPath}`);
