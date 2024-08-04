@@ -3,13 +3,19 @@ const jp = require('jsonpath');
 const path = require('path');
 
 const BASE_ICON_PATH = "/telenova-utils/main/icons/"
+const ASSET_ICON_PATH = "/assets/color/"
 
 let hasError = false;
+let allReferencedIcons = new Set();
+
 function checkChainsFile(filePath) {
     let chainsFile = fs.readFileSync(filePath);
     let chainsJSON = JSON.parse(chainsFile);
 
     let allIcons = jp.query(chainsJSON, "$..icon");
+    allIcons.forEach(icon => {
+        allReferencedIcons.add(icon);
+    });
     let relativeIcons = [];
     for (let i in allIcons) {
         relativeIcons.push('.' + allIcons[i].substring(allIcons[i].indexOf('/icons/')))
@@ -38,7 +44,7 @@ function checkChainsFile(filePath) {
         if (assetIcons[i].indexOf(`${BASE_ICON_PATH}`) === -1) {
             badAssetIcon.add(assetIcons[i]);
         }
-        if (assetIcons[i].indexOf(`/assets/white/`) === -1) {
+        if (assetIcons[i].indexOf(ASSET_ICON_PATH) === -1) {
             badAssetIcon.add(assetIcons[i]);
         }
     }
@@ -111,6 +117,31 @@ function traverseDir(dirPath, checkFunction, callback) {
     });
 }
 
+function deleteUnusedIcons() {
+    const iconsDir = path.join(__dirname, '../icons/v1');
+    
+    function traverseIconsDir(dir) {
+        const files = fs.readdirSync(dir);
+        
+        files.forEach(file => {
+            const fullPath = path.join(dir, file);
+            if (fs.statSync(fullPath).isDirectory()) {
+                traverseIconsDir(fullPath);
+            } else if (path.extname(file) === '.svg') {
+                const relativePath = fullPath.split('icons/v1')[1].replace(/\\/g, '/');
+                const iconPath = `/telenova-utils/main/icons/v1${relativePath}`;
+                
+                if (!allReferencedIcons.has(iconPath)) {
+                    console.log(`Deleting unused icon: ${fullPath}`);
+                    fs.unlinkSync(fullPath);
+                }
+            }
+        });
+    }
+
+    traverseIconsDir(iconsDir);
+}
+
 traverseDir(path.join(__dirname, '../chains/'), checkChainsFile, function (err) {
     if (err) {
         console.error('traverseDir failed - ', err);
@@ -123,4 +154,7 @@ traverseDir(path.join(__dirname, '../chains/'), checkChainsFile, function (err) 
     }
 
     console.log('All files processed successfully');
+
+    // Delete unused icons
+    deleteUnusedIcons();
 });
