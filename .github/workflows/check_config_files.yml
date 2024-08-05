@@ -1,0 +1,25 @@
+name: Check config files
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-config-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: 🛠 Set up env variables
+        uses: ./.github/actions/setup-env
+
+      - name: ⚙️ Install dependencies
+        run: npm install
+
+      - name: 📝 Check chains file
+        run: npm run check:chains
