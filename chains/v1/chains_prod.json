@@ -23,6 +23,14 @@
         "name": "Novasama node"
       },
       {
+        "url": "wss://rpc.ibp.network/polkadot",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://rpc.dotters.network/polkadot",
+        "name": "IBP2 node"
+      },
+      {
         "url": "wss://apps-rpc.polkadot.io",
         "name": "Public node"
       },
@@ -45,14 +53,6 @@
       {
         "url": "wss://rpc-polkadot.luckyfriday.io",
         "name": "LuckyFriday node"
-      },
-      {
-        "url": "wss://rpc.ibp.network/polkadot",
-        "name": "IBP network node"
-      },
-      {
-        "url": "wss://rpc.dotters.network/polkadot",
-        "name": "Dotters Net node"
       }
     ]
   },
@@ -80,6 +80,14 @@
         "name": "Novasama node"
       },
       {
+        "url": "wss://rpc.ibp.network/kusama",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://rpc.dotters.network/kusama",
+        "name": "IBP2 node"
+      },
+      {
         "url": "wss://apps-kusama-rpc.polkadot.io",
         "name": "Public node"
       },
@@ -94,14 +102,6 @@
       {
         "url": "wss://1rpc.io/ksm",
         "name": "Automata 1RPC node"
-      },
-      {
-        "url": "wss://rpc.ibp.network/kusama",
-        "name": "IBP network node"
-      },
-      {
-        "url": "wss://rpc.dotters.network/kusama",
-        "name": "Dotters Net node"
       },
       {
         "url": "wss://kusama.public.curie.radiumblock.co/ws",
@@ -137,11 +137,11 @@
       },
       {
         "url": "wss://rpc.ibp.network/westend",
-        "name": "IBP network node"
+        "name": "IBP1 node"
       },
       {
         "url": "wss://rpc.dotters.network/westend",
-        "name": "Dotters Net node"
+        "name": "IBP2 node"
       },
       {
         "url": "wss://westend.public.curie.radiumblock.co/ws",
@@ -200,6 +200,14 @@
       {
         "url": "wss://wss.api.moonbeam.network",
         "name": "Moonbeam Foundation node"
+      },
+      {
+        "url": "wss://moonbeam.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://moonbeam.dotters.network",
+        "name": "IBP2 node"
       },
       {
         "url": "wss://moonbeam.public.curie.radiumblock.co/ws",
@@ -453,6 +461,14 @@
     ],
     "nodes": [
       {
+        "url": "wss://kilt.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://kilt.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
         "url": "wss://kilt-rpc.dwellir.com",
         "name": "Dwellir node"
       },
@@ -641,12 +657,12 @@
     ],
     "nodes": [
       {
-        "url": "wss://sys.ibp.network/statemint",
-        "name": "IBP network node"
+        "url": "wss://sys.ibp.network/asset-hub-polkadot",
+        "name": "IBP1 node"
       },
       {
-        "url": "wss://sys.dotters.network/statemint",
-        "name": "Dotters Net node"
+        "url": "wss://sys.dotters.network/asset-hub-polkadot",
+        "name": "IBP2 node"
       },
       {
         "url": "wss://statemint-rpc.dwellir.com",
@@ -759,7 +775,7 @@
         "assetId": 0,
         "chainId": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
         "symbol": "LIT",
-        "precision": 12,
+        "precision": 18,
         "type": "native",
         "priceId": "litentry",
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Litentry_(LIT).svg"
@@ -879,20 +895,20 @@
     ],
     "nodes": [
       {
+        "url": "wss://hydration.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://hydration.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
         "url": "wss://hydradx-rpc.dwellir.com",
         "name": "Dwellir node"
       },
       {
         "url": "wss://rpc.hydradx.cloud",
         "name": "Galactic Council node"
-      },
-      {
-        "url": "wss://hydradx.paras.ibp.network",
-        "name": "IBP1 node"
-      },
-      {
-        "url": "wss://hydradx.paras.dotters.network",
-        "name": "IBP2 node"
       }
     ]
   },
@@ -1046,6 +1062,14 @@
     ],
     "nodes": [
       {
+        "url": "wss://bifrost-polkadot.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://bifrost-polkadot.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
         "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
         "name": "Liebi node"
       }
@@ -1063,7 +1087,7 @@
         "assetId": 0,
         "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
         "symbol": "LIT",
-        "precision": 12,
+        "precision": 18,
         "type": "native",
         "priceId": "litentry",
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Litentry_(LIT).svg"
@@ -1259,6 +1283,14 @@
       {
         "url": "wss://rpc.polimec.org",
         "name": "Polimec node"
+      },
+      {
+        "url": "wss://polimec.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://polimec.dotters.network",
+        "name": "IBP2 node"
       }
     ]
   },
