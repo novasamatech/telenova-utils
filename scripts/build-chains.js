@@ -93,6 +93,7 @@ function getTransformedData(rawData) {
       chainIndex: index,
       addressPrefix: chain.addressPrefix,
       chainId: `0x${chain.chainId}`,
+      parentId: chain.parentId ? `0x${chain.parentId}` : undefined,
       icon: replaceUrl(chain.icon, 'chain'),
       assets,
       nodes,
