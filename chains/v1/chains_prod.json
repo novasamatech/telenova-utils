@@ -158,6 +158,7 @@
     "chainIndex": 3,
     "addressPrefix": 8,
     "chainId": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Karura.svg",
     "assets": [
       {
@@ -183,6 +184,7 @@
     "chainIndex": 4,
     "addressPrefix": 1284,
     "chainId": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/moonbeam.svg",
     "assets": [
       {
@@ -224,6 +226,7 @@
     "chainIndex": 5,
     "addressPrefix": 1285,
     "chainId": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/moonriver.svg",
     "assets": [
       {
@@ -261,6 +264,7 @@
     "chainIndex": 6,
     "addressPrefix": 5,
     "chainId": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Shiden.svg",
     "assets": [
       {
@@ -298,6 +302,7 @@
     "chainIndex": 7,
     "addressPrefix": 6,
     "chainId": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Bifrost_Kusama.svg",
     "assets": [
       {
@@ -331,6 +336,7 @@
     "chainIndex": 8,
     "addressPrefix": 10041,
     "chainId": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Basilisk.svg",
     "assets": [
       {
@@ -360,6 +366,7 @@
     "chainIndex": 9,
     "addressPrefix": 136,
     "chainId": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Altair.svg",
     "assets": [
       {
@@ -385,6 +392,7 @@
     "chainIndex": 10,
     "addressPrefix": 110,
     "chainId": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/ParallelHeiko.svg",
     "assets": [
       {
@@ -409,6 +417,7 @@
     "chainIndex": 11,
     "addressPrefix": 30,
     "chainId": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Khala.svg",
     "assets": [
       {
@@ -446,6 +455,7 @@
     "chainIndex": 12,
     "addressPrefix": 38,
     "chainId": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/KILT_Spiritnet.svg",
     "assets": [
       {
@@ -487,6 +497,7 @@
     "chainIndex": 13,
     "addressPrefix": 255,
     "chainId": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Quartz.svg",
     "assets": [
       {
@@ -524,6 +535,7 @@
     "chainIndex": 14,
     "addressPrefix": 10,
     "chainId": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Acala.svg",
     "assets": [
       {
@@ -577,6 +589,7 @@
     "chainIndex": 15,
     "addressPrefix": 5,
     "chainId": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Astar.svg",
     "assets": [
       {
@@ -614,6 +627,7 @@
     "chainIndex": 16,
     "addressPrefix": 172,
     "chainId": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Parallel.svg",
     "assets": [
       {
@@ -639,6 +653,7 @@
     "chainIndex": 17,
     "addressPrefix": 0,
     "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Polkadot_Asset_Hub.svg",
     "assets": [
       {
@@ -679,6 +694,7 @@
     "chainIndex": 18,
     "addressPrefix": 32,
     "chainId": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Robonomics.svg",
     "assets": [
       {
@@ -708,6 +724,7 @@
     "chainIndex": 19,
     "addressPrefix": 2092,
     "chainId": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Kintsugi.svg",
     "assets": [
       {
@@ -739,6 +756,7 @@
     "chainIndex": 20,
     "addressPrefix": 73,
     "chainId": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Zeitgeist.svg",
     "assets": [
       {
@@ -768,6 +786,7 @@
     "chainIndex": 21,
     "addressPrefix": 131,
     "chainId": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Litmus.svg",
     "assets": [
       {
@@ -793,6 +812,7 @@
     "chainIndex": 22,
     "addressPrefix": 28,
     "chainId": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Subsocial_Parachain.svg",
     "assets": [
       {
@@ -826,6 +846,7 @@
     "chainIndex": 23,
     "addressPrefix": 13,
     "chainId": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Integritee.svg",
     "assets": [
       {
@@ -855,6 +876,7 @@
     "chainIndex": 24,
     "addressPrefix": 36,
     "chainId": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Centrifuge.svg",
     "assets": [
       {
@@ -884,6 +906,7 @@
     "chainIndex": 25,
     "addressPrefix": 63,
     "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Hydration.svg",
     "assets": [
       {
@@ -921,6 +944,7 @@
     "chainIndex": 26,
     "addressPrefix": 2032,
     "chainId": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Interlay.svg",
     "assets": [
       {
@@ -960,6 +984,7 @@
     "chainIndex": 27,
     "addressPrefix": 30,
     "chainId": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Phala.svg",
     "assets": [
       {
@@ -997,6 +1022,7 @@
     "chainIndex": 28,
     "addressPrefix": 51,
     "chainId": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Turing.svg",
     "assets": [
       {
@@ -1051,6 +1077,7 @@
     "chainIndex": 30,
     "addressPrefix": 6,
     "chainId": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Bifrost_Polkadot.svg",
     "assets": [
       {
@@ -1084,6 +1111,7 @@
     "chainIndex": 31,
     "addressPrefix": 31,
     "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Litentry.svg",
     "assets": [
       {
@@ -1113,6 +1141,7 @@
     "chainIndex": 32,
     "addressPrefix": 42,
     "chainId": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/MangataX.svg",
     "assets": [
       {
@@ -1148,6 +1177,7 @@
     "chainIndex": 33,
     "addressPrefix": 42,
     "chainId": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Imbue.svg",
     "assets": [
       {
@@ -1172,6 +1202,7 @@
     "chainIndex": 34,
     "addressPrefix": 117,
     "chainId": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Tinkernet.svg",
     "assets": [
       {
@@ -1196,6 +1227,7 @@
     "chainIndex": 35,
     "addressPrefix": 57,
     "chainId": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Amplitude.svg",
     "assets": [
       {
@@ -1220,6 +1252,7 @@
     "chainIndex": 36,
     "addressPrefix": 56,
     "chainId": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Pendulum.svg",
     "assets": [
       {
@@ -1270,6 +1303,7 @@
     "chainIndex": 38,
     "addressPrefix": 41,
     "chainId": "0x7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Polimec.svg",
     "assets": [
       {
