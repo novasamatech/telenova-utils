@@ -82,7 +82,7 @@ function replaceTypeExtras(typeExtras, chainId) {
 function getTransformedData(rawData) {
   const filteredData = rawData.filter(chain => chain.chainId in ALLOWED_CHAINS);
 
-  return filteredData.map((chain, index) => {
+  return filteredData.map((chain) => {
     const assets = fillAssetData(chain);
     const nodes = chain.nodes
       .filter(node => !node.url.includes('{'))
@@ -90,7 +90,7 @@ function getTransformedData(rawData) {
 
     return {
       name: chain.name,
-      chainIndex: index,
+      chainIndex: ALLOWED_CHAINS[chain.chainId].chainIndex,
       addressPrefix: chain.addressPrefix,
       chainId: `0x${chain.chainId}`,
       parentId: chain.parentId ? `0x${chain.parentId}` : undefined,
@@ -158,8 +158,9 @@ function findFileByTicker(tickers, dirPath) {
 async function saveNewFile(newJson, file_name) {
   try {
     const filePath = path.resolve(CONFIG_PATH, file_name);
-
-    await writeFile(filePath, JSON.stringify(newJson, null, 2));
+    const jsonContent = JSON.stringify(newJson, null, 2);
+    const contentWithNewline = jsonContent + '\n';
+    await writeFile(filePath, contentWithNewline);
     console.log('🌟 Successfully saved file: ' + file_name);
   } catch (error) {
     console.log('Error: ', error?.message || '🛑 Something went wrong in writing file');

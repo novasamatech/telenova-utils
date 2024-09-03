@@ -1,0 +1,8 @@
+repos:
+-   repo: https://github.com/stepanLav/pre-commit-hooks
+    rev: 498106492daa3e1fc989ffefe3541214252d0678
+    hooks:
+    -   id: check-telenova-config
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-json
