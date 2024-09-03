@@ -283,7 +283,7 @@
   },
   {
     "name": "Altair",
-    "chainIndex": 7,
+    "chainIndex": 9,
     "addressPrefix": 136,
     "chainId": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -309,7 +309,7 @@
   },
   {
     "name": "Parallel Heiko",
-    "chainIndex": 8,
+    "chainIndex": 7,
     "addressPrefix": 110,
     "chainId": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -334,7 +334,7 @@
   },
   {
     "name": "Khala",
-    "chainIndex": 9,
+    "chainIndex": 10,
     "addressPrefix": 30,
     "chainId": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -372,7 +372,7 @@
   },
   {
     "name": "KILT",
-    "chainIndex": 10,
+    "chainIndex": 11,
     "addressPrefix": 38,
     "chainId": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -414,7 +414,7 @@
   },
   {
     "name": "QUARTZ",
-    "chainIndex": 11,
+    "chainIndex": 12,
     "addressPrefix": 255,
     "chainId": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -452,7 +452,7 @@
   },
   {
     "name": "Acala",
-    "chainIndex": 12,
+    "chainIndex": 13,
     "addressPrefix": 10,
     "chainId": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -506,7 +506,7 @@
   },
   {
     "name": "Astar",
-    "chainIndex": 13,
+    "chainIndex": 14,
     "addressPrefix": 5,
     "chainId": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -544,7 +544,7 @@
   },
   {
     "name": "Parallel",
-    "chainIndex": 14,
+    "chainIndex": 15,
     "addressPrefix": 172,
     "chainId": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -570,7 +570,7 @@
   },
   {
     "name": "Polkadot Asset Hub",
-    "chainIndex": 15,
+    "chainIndex": 16,
     "addressPrefix": 0,
     "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -611,7 +611,7 @@
   },
   {
     "name": "Robonomics",
-    "chainIndex": 16,
+    "chainIndex": 17,
     "addressPrefix": 32,
     "chainId": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -641,7 +641,7 @@
   },
   {
     "name": "Kintsugi",
-    "chainIndex": 17,
+    "chainIndex": 6,
     "addressPrefix": 2092,
     "chainId": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",

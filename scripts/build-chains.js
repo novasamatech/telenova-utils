@@ -82,7 +82,7 @@ function replaceTypeExtras(typeExtras, chainId) {
 function getTransformedData(rawData) {
   const filteredData = rawData.filter(chain => chain.chainId in ALLOWED_CHAINS);
 
-  return filteredData.map((chain, index) => {
+  return filteredData.map((chain) => {
     const assets = fillAssetData(chain);
     const nodes = chain.nodes
       .filter(node => !node.url.includes('{'))
@@ -90,7 +90,7 @@ function getTransformedData(rawData) {
 
     return {
       name: chain.name,
-      chainIndex: index,
+      chainIndex: ALLOWED_CHAINS[chain.chainId].chainIndex,
       addressPrefix: chain.addressPrefix,
       chainId: `0x${chain.chainId}`,
       parentId: chain.parentId ? `0x${chain.parentId}` : undefined,
