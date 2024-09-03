@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/stepanLav/pre-commit-hooks
-    rev: b814fa8ec71abae0dc2c958b8dafc35aa90530f9
+    rev: 498106492daa3e1fc989ffefe3541214252d0678
     hooks:
     -   id: check-telenova-config
     -   id: end-of-file-fixer
