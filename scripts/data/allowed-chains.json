@@ -197,24 +197,6 @@
       }
     ]
   },
-  "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d": {
-    "name": "Moonbeam",
-    "assets": [
-      {
-        "symbol": "GLMR",
-        "name": "Moonbeam"
-      }
-    ]
-  },
-  "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b": {
-    "name": "Moonriver",
-    "assets": [
-      {
-        "symbol": "MOVR",
-        "name": "Moonriver"
-      }
-    ]
-  },
   "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97": {
     "name": "Parallel",
     "assets": [
