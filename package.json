@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:chains": "node scripts/build-chains.js",
-    "check:chains": "node scripts/check-config.js"
+    "check:chains": "node scripts/check-config.js",
+    "setup:pre-commit": "pip install pre-commit && pre-commit install",
+    "postinstall": "npm run setup:pre-commit"
   },
   "repository": {
     "type": "git",
