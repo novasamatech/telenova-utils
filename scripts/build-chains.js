@@ -95,6 +95,7 @@ function getTransformedData(rawData) {
       chainId: `0x${chain.chainId}`,
       parentId: chain.parentId ? `0x${chain.parentId}` : undefined,
       icon: replaceUrl(chain.icon, 'chain'),
+      options: chain.options?.includes("ethereumBased") ? ['evm'] : undefined,
       assets,
       nodes,
     };
