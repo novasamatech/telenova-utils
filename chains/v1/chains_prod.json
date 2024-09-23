@@ -19,7 +19,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-polkadot.novasamatech.org",
+        "url": "wss://rpc-polkadot.novasama-tech.org",
         "name": "Novasama node"
       },
       {
@@ -76,7 +76,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-kusama.novasamatech.org",
+        "url": "wss://rpc-kusama.novasama-tech.org",
         "name": "Novasama node"
       },
       {
@@ -557,7 +557,6 @@
         "symbol": "PARA",
         "precision": 12,
         "type": "native",
-        "priceId": "parallel-finance",
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/PARA.svg"
       }
     ],
