@@ -276,6 +276,10 @@
       {
         "symbol": "USDT",
         "name": "USD Tether"
+      },
+      {
+        "symbol": "USDC",
+        "name": "USD Coin"
       }
     ]
   },

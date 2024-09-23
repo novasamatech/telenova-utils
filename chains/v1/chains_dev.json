@@ -711,6 +711,19 @@
         "typeExtras": {
           "assetId": "1984"
         }
+      },
+      {
+        "name": "USD Coin",
+        "assetId": 2,
+        "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "symbol": "USDC",
+        "precision": 6,
+        "type": "statemine",
+        "priceId": "usd-coin",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDC.svg",
+        "typeExtras": {
+          "assetId": "1337"
+        }
       }
     ],
     "nodes": [
