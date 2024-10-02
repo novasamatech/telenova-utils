@@ -119,10 +119,10 @@ function traverseDir(dirPath, checkFunction, callback) {
 
 function deleteUnusedIcons() {
     const iconsDir = path.join(__dirname, '../icons/v1');
-    
+
     function traverseIconsDir(dir) {
         const files = fs.readdirSync(dir);
-        
+
         files.forEach(file => {
             const fullPath = path.join(dir, file);
             if (fs.statSync(fullPath).isDirectory()) {
@@ -130,7 +130,7 @@ function deleteUnusedIcons() {
             } else if (path.extname(file) === '.svg') {
                 const relativePath = fullPath.split('icons/v1')[1].replace(/\\/g, '/');
                 const iconPath = `https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1${relativePath}`;
-                
+
                 if (!allReferencedIcons.has(iconPath)) {
                     console.log(`Deleting unused icon: ${fullPath}`);
                     fs.unlinkSync(fullPath);
