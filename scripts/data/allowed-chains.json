@@ -199,16 +199,6 @@
       }
     ]
   },
-  "da5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c": {
-    "name": "Litmus",
-    "chainIndex": 19,
-    "assets": [
-      {
-        "symbol": "LIT",
-        "name": "Litmus"
-      }
-    ]
-  },
   "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa": {
     "name": "Mangata X",
     "chainIndex": 30,
@@ -395,7 +385,7 @@
   },
   "401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b": {
     "name": "Moonriver",
-    "chainIndex": 20,
+    "chainIndex": 38,
     "assets": [
       {
         "symbol": "MOVR",
