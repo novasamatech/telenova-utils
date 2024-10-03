@@ -63,6 +63,7 @@ function fillAssetData(chain) {
       precision: asset.precision,
       type: asset.type || 'native',
       priceId: asset.priceId,
+      feeBuffer: allowedAsset.feeBuffer || 1,
       icon: replaceUrl(asset.icon, 'asset', asset.symbol),
       typeExtras: replaceTypeExtras(asset.typeExtras, chain.chainId),
     });
