@@ -405,6 +405,10 @@
       {
         "url": "wss://spiritnet.kilt.io/",
         "name": "KILT Protocol node"
+      },
+      {
+        "url": "wss://spiritnet.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
       }
     ]
   },
@@ -693,6 +697,32 @@
       {
         "url": "wss://main.rpc.zeitgeist.pm/ws",
         "name": "Zeitgeist node"
+      }
+    ]
+  },
+  {
+    "name": "Litmus",
+    "chainIndex": 19,
+    "addressPrefix": 131,
+    "chainId": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Litmus.svg",
+    "assets": [
+      {
+        "name": "Litmus",
+        "assetId": 0,
+        "chainId": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+        "symbol": "LIT",
+        "precision": 18,
+        "type": "native",
+        "priceId": "litentry",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Litentry_(LIT).svg"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc.litmus-parachain.litentry.io",
+        "name": "Litentry node"
       }
     ]
   },
