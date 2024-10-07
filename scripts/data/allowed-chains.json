@@ -265,11 +265,13 @@
     "assets": [
       {
         "symbol": "USDT",
-        "name": "USD Tether"
+        "name": "USD Tether",
+        "feeBuffer":1.1
       },
       {
         "symbol": "USDC",
-        "name": "USD Coin"
+        "name": "USD Coin",
+        "feeBuffer": 1.1
       }
     ]
   },

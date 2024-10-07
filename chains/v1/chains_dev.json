@@ -709,6 +709,7 @@
         "precision": 6,
         "type": "statemine",
         "priceId": "tether",
+        "feeBuffer": 1.1,
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDT.svg",
         "typeExtras": {
           "assetId": "1984"
@@ -722,6 +723,7 @@
         "precision": 6,
         "type": "statemine",
         "priceId": "usd-coin",
+        "feeBuffer": 1.1,
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDC.svg",
         "typeExtras": {
           "assetId": "1337"
