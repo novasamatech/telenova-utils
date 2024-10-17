@@ -688,6 +688,10 @@
     ],
     "nodes": [
       {
+        "url": "wss://polkadot-parallel-rpc.parallel.fi",
+        "name": "Parallel node"
+      },
+      {
         "url": "wss://parallel-rpc.dwellir.com",
         "name": "Dwellir node"
       }
@@ -1354,16 +1358,28 @@
     ],
     "nodes": [
       {
-        "url": "wss://zeref-api.slowops.xyz/ws",
-        "name": "Turing node"
+        "url": "wss://avail-mainnet.public.blastapi.io/",
+        "name": "Bware node"
       },
       {
-        "url": "wss://avail-mainnet.public.blastapi.io/",
-        "name": "Blastapi node"
+        "url": "wss://avail-rpc.rubynodes.io/",
+        "name": "RubyNode node"
+      },
+      {
+        "url": "wss://avail-us.brightlystake.com",
+        "name": "BrightlyStake node"
+      },
+      {
+        "url": "wss://rpc-avail.globalstake.io",
+        "name": "GlobalStake node"
       },
       {
         "url": "wss://avail.rpc.bountyblok.io",
         "name": "Bountyblok node"
+      },
+      {
+        "url": "wss://avail.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
       }
     ]
   }
