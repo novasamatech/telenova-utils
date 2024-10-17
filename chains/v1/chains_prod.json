@@ -114,46 +114,6 @@
     ]
   },
   {
-    "name": "Westend",
-    "chainIndex": 2,
-    "addressPrefix": 42,
-    "chainId": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Westend_Testnet.svg",
-    "assets": [
-      {
-        "name": "Westend",
-        "assetId": 0,
-        "chainId": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-        "symbol": "WND",
-        "precision": 12,
-        "type": "native",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Westend_(WND).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://westend-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://rpc.ibp.network/westend",
-        "name": "IBP1 node"
-      },
-      {
-        "url": "wss://rpc.dotters.network/westend",
-        "name": "IBP2 node"
-      },
-      {
-        "url": "wss://westend.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://westend.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
-      }
-    ]
-  },
-  {
     "name": "Karura",
     "chainIndex": 3,
     "addressPrefix": 8,
@@ -176,6 +136,92 @@
       {
         "url": "wss://karura.api.onfinality.io/public-ws",
         "name": "Onfinality node"
+      }
+    ]
+  },
+  {
+    "name": "Moonbeam",
+    "chainIndex": 19,
+    "addressPrefix": 1284,
+    "chainId": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/moonbeam.svg",
+    "options": [
+      "evm"
+    ],
+    "assets": [
+      {
+        "name": "Moonbeam",
+        "assetId": 0,
+        "chainId": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+        "symbol": "GLMR",
+        "precision": 18,
+        "type": "native",
+        "priceId": "moonbeam",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Moonbeam_(GLMR).svg"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://wss.api.moonbeam.network",
+        "name": "Moonbeam Foundation node"
+      },
+      {
+        "url": "wss://moonbeam.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://moonbeam.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://moonbeam.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://moonbeam.public.blastapi.io",
+        "name": "Blast node"
+      }
+    ]
+  },
+  {
+    "name": "Moonriver",
+    "chainIndex": 38,
+    "addressPrefix": 1285,
+    "chainId": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/moonriver.svg",
+    "options": [
+      "evm"
+    ],
+    "assets": [
+      {
+        "name": "Moonriver",
+        "assetId": 0,
+        "chainId": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+        "symbol": "MOVR",
+        "precision": 18,
+        "type": "native",
+        "priceId": "moonriver",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Moonriver_(MOVR).svg"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://wss.api.moonriver.moonbeam.network",
+        "name": "Moonbeam Foundation node"
+      },
+      {
+        "url": "wss://moonriver.public.blastapi.io",
+        "name": "Blast node"
+      },
+      {
+        "url": "wss://moonriver.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://moonriver-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ]
   },
@@ -558,6 +604,10 @@
     ],
     "nodes": [
       {
+        "url": "wss://polkadot-parallel-rpc.parallel.fi",
+        "name": "Parallel node"
+      },
+      {
         "url": "wss://parallel-rpc.dwellir.com",
         "name": "Dwellir node"
       }
@@ -579,9 +629,24 @@
         "precision": 6,
         "type": "statemine",
         "priceId": "tether",
+        "feeBuffer": 1.1,
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDT.svg",
         "typeExtras": {
           "assetId": "1984"
+        }
+      },
+      {
+        "name": "USD Coin",
+        "assetId": 2,
+        "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "symbol": "USDC",
+        "precision": 6,
+        "type": "statemine",
+        "priceId": "usd-coin",
+        "feeBuffer": 1.1,
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDC.svg",
+        "typeExtras": {
+          "assetId": "1337"
         }
       }
     ],
@@ -1241,16 +1306,28 @@
     ],
     "nodes": [
       {
-        "url": "wss://zeref-api.slowops.xyz/ws",
-        "name": "Turing node"
+        "url": "wss://avail-mainnet.public.blastapi.io/",
+        "name": "Bware node"
       },
       {
-        "url": "wss://avail-mainnet.public.blastapi.io/",
-        "name": "Blastapi node"
+        "url": "wss://avail-rpc.rubynodes.io/",
+        "name": "RubyNode node"
+      },
+      {
+        "url": "wss://avail-us.brightlystake.com",
+        "name": "BrightlyStake node"
+      },
+      {
+        "url": "wss://rpc-avail.globalstake.io",
+        "name": "GlobalStake node"
       },
       {
         "url": "wss://avail.rpc.bountyblok.io",
         "name": "Bountyblok node"
+      },
+      {
+        "url": "wss://avail.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
       }
     ]
   }
