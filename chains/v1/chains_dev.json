@@ -1339,6 +1339,35 @@
     ]
   },
   {
+    "name": "Mythos",
+    "chainIndex": 39,
+    "addressPrefix": 29972,
+    "chainId": "0xf6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9",
+    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Mythos.svg",
+    "options": [
+      "evm"
+    ],
+    "assets": [
+      {
+        "name": "Mythos",
+        "assetId": 0,
+        "chainId": "0xf6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9",
+        "symbol": "MYTH",
+        "precision": 18,
+        "type": "native",
+        "priceId": "mythos",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/MYTH.svg"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://polkadot-mythos-rpc.polkadot.io",
+        "name": "Parity node"
+      }
+    ]
+  },
+  {
     "name": "Avail",
     "chainIndex": 37,
     "addressPrefix": 42,

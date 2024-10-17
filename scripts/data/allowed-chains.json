@@ -394,5 +394,15 @@
         "name": "Moonriver"
       }
     ]
+  },
+  "f6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9": {
+    "name": "Mythos",
+    "chainIndex": 39,
+    "assets": [
+      {
+        "symbol": "MYTH",
+        "name": "Mythos"
+      }
+    ]
   }
 }
