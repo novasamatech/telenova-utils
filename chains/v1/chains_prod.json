@@ -113,7 +113,7 @@
       }
     ]
   },
-{
+  {
     "name": "Westend",
     "chainIndex": 2,
     "addressPrefix": 42,
