@@ -19,9 +19,13 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-polkadot.novasama-tech.org",
+        "url": "wss://rpc-polkadot-1.novasama-tech.org",
         "name": "Novasama node"
-      },
+    },
+    {
+        "url": "wss://rpc-polkadot-2.novasama-tech.org",
+        "name": "Novasama node"
+    },
       {
         "url": "wss://rpc.ibp.network/polkadot",
         "name": "IBP1 node"
@@ -76,9 +80,13 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-kusama.novasama-tech.org",
+        "url": "wss://rpc-kusama-1.novasama-tech.org",
         "name": "Novasama node"
-      },
+    },
+    {
+        "url": "wss://rpc-kusama-2.novasama-tech.org",
+        "name": "Novasama node"
+    },
       {
         "url": "wss://rpc.ibp.network/kusama",
         "name": "IBP1 node"
