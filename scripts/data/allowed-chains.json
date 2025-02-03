@@ -7,6 +7,16 @@
         "symbol": "ACA",
         "name": "Acala"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://acala-polkadot.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
+      },
+      {
+        "url": "wss://acala-rpc.dwellir.com",
+        "name": "Dwellir node"
+      }
     ]
   },
   "70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e": {
@@ -16,6 +26,12 @@
       {
         "symbol": "AZERO",
         "name": "Aleph Zero"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://aleph-zero.api.onfinality.io/public-ws",
+        "name": "Aleph Zero node"
       }
     ]
   },
@@ -27,6 +43,12 @@
         "symbol": "AIR",
         "name": "Altair"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://altair.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
+      }
     ]
   },
   "cceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf": {
@@ -36,6 +58,12 @@
       {
         "symbol": "AMPE",
         "name": "Amplitude"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc-amplitude.pendulumchain.tech",
+        "name": "PendulumChain node"
       }
     ]
   },
@@ -47,6 +75,20 @@
         "symbol": "ASTR",
         "name": "Astar"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc.astar.network",
+        "name": "Astar node"
+      },
+      {
+        "url": "wss://astar.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      },
+      {
+        "url": "wss://astar.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
+      }
     ]
   },
   "b91746b45e0346cc2f815a520b9c6cb4d5c0902af848db0a80f85932d2e8276a": {
@@ -56,6 +98,12 @@
       {
         "symbol": "AVAIL",
         "name": "Avail"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://avail-rpc.rubynodes.io/",
+        "name": "RubyNode node"
       }
     ]
   },
@@ -67,6 +115,16 @@
         "symbol": "BSX",
         "name": "Basilisk"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc.basilisk.cloud",
+        "name": "Basilisk node"
+      },
+      {
+        "url": "wss://basilisk-rpc.dwellir.com",
+        "name": "Dwellir node"
+      }
     ]
   },
   "9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed": {
@@ -76,6 +134,16 @@
       {
         "symbol": "BNC",
         "name": "Bifrost"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://bifrost-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
       }
     ]
   },
@@ -87,6 +155,16 @@
         "symbol": "BNC",
         "name": "Bifrost"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://bifrost-polkadot.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://bifrost-polkadot.dotters.network",
+        "name": "IBP2 node"
+      }
     ]
   },
   "b3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82": {
@@ -96,6 +174,16 @@
       {
         "symbol": "CFG",
         "name": "Centrifuge Parachain"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://centrifuge-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
+        "name": "Onfinality node"
       }
     ]
   },
@@ -107,6 +195,20 @@
         "symbol": "HDX",
         "name": "HydraDX"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://hydration.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://hydration.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://hydradx-rpc.dwellir.com",
+        "name": "Dwellir node"
+      }
     ]
   },
   "ca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89": {
@@ -116,6 +218,12 @@
       {
         "symbol": "IMBU",
         "name": "Imbue"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://kusama.imbuenetwork.com",
+        "name": "Imbue node"
       }
     ]
   },
@@ -127,15 +235,15 @@
         "symbol": "TEER",
         "name": "Integritee Parachain"
       }
-    ]
-  },
-  "bf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72": {
-    "name": "Interlay",
-    "chainIndex": 24,
-    "assets": [
+    ],
+    "nodes": [
       {
-        "symbol": "INTR",
-        "name": "Interlay"
+        "url": "wss://kusama.api.integritee.network",
+        "name": "Integritee node"
+      },
+      {
+        "url": "wss://integritee-kusama.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
       }
     ]
   },
@@ -147,6 +255,12 @@
         "symbol": "KAR",
         "name": "Karura"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://karura.api.onfinality.io/public-ws",
+        "name": "Onfinality node"
+      }
     ]
   },
   "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d": {
@@ -156,6 +270,20 @@
       {
         "symbol": "PHA",
         "name": "Phala"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://khala-api.phala.network/ws",
+        "name": "Phala node"
+      },
+      {
+        "url": "wss://khala-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://khala.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
       }
     ]
   },
@@ -167,15 +295,11 @@
         "symbol": "KILT",
         "name": "KILT Spiritnet"
       }
-    ]
-  },
-  "9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b": {
-    "name": "Kintsugi",
-    "chainIndex": 6,
-    "assets": [
+    ],
+    "nodes": [
       {
-        "symbol": "KINT",
-        "name": "Kintsugi"
+        "url": "wss://kilt-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ]
   },
@@ -187,6 +311,20 @@
         "symbol": "KSM",
         "name": "Kusama"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc-kusama.novasama-tech.org",
+        "name": "Novasama node"
+      },
+      {
+        "url": "wss://rpc.ibp.network/kusama",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://kusama-rpc.dwellir.com",
+        "name": "Dwellir node"
+      }
     ]
   },
   "2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9": {
@@ -197,35 +335,15 @@
         "symbol": "LIT",
         "name": "Litentry"
       }
-    ]
-  },
-  "d611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa": {
-    "name": "Mangata X",
-    "chainIndex": 30,
-    "assets": [
+    ],
+    "nodes": [
       {
-        "symbol": "MGX",
-        "name": "Mangata X"
-      }
-    ]
-  },
-  "e61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97": {
-    "name": "Parallel",
-    "chainIndex": 15,
-    "assets": [
+        "url": "wss://rpc.litentry-parachain.litentry.io",
+        "name": "Litentry node"
+      },
       {
-        "symbol": "PARA",
-        "name": "Parallel"
-      }
-    ]
-  },
-  "64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b": {
-    "name": "Parallel Heiko",
-    "chainIndex": 7,
-    "assets": [
-      {
-        "symbol": "HKO",
-        "name": "Parallel Heiko"
+        "url": "wss://litentry-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ]
   },
@@ -237,6 +355,12 @@
         "symbol": "PEN",
         "name": "Pendulum"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc-pendulum.prd.pendulumchain.tech",
+        "name": "Pendulum node"
+      }
     ]
   },
   "1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736": {
@@ -247,6 +371,20 @@
         "symbol": "PHA",
         "name": "Phala"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://phala-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://api.phala.network/ws",
+        "name": "Phala node"
+      },
+      {
+        "url": "wss://phala.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
+      }
     ]
   },
   "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3": {
@@ -256,6 +394,20 @@
       {
         "symbol": "DOT",
         "name": "Polkadot"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc-polkadot.novasama-tech.org",
+        "name": "Novasama node"
+      },
+      {
+        "url": "wss://rpc.ibp.network/polkadot",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://polkadot-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ]
   },
@@ -273,6 +425,20 @@
         "name": "USD Coin",
         "feeBuffer": 1.1
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://sys.ibp.network/asset-hub-polkadot",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://asset-hub-polkadot.dotters.network",
+        "name": "IBP2 node"
+      },
+      {
+        "url": "wss://statemint-rpc.dwellir.com",
+        "name": "Dwellir node"
+      }
     ]
   },
   "7eb9354488318e7549c722669dcbdcdc526f1fef1420e7944667212f3601fdbd": {
@@ -282,6 +448,20 @@
       {
         "symbol": "PLMC",
         "name": "Polimec"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc.polimec.org",
+        "name": "Polimec node"
+      },
+      {
+        "url": "wss://polimec.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://polimec.dotters.network",
+        "name": "IBP2 node"
       }
     ]
   },
@@ -293,15 +473,19 @@
         "symbol": "QTZ",
         "name": "QUARTZ"
       }
-    ]
-  },
-  "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc": {
-    "name": "Robonomics",
-    "chainIndex": 17,
-    "assets": [
+    ],
+    "nodes": [
       {
-        "symbol": "XRT",
-        "name": "Robonomics"
+        "url": "wss://quartz.unique.network",
+        "name": "Unique node"
+      },
+      {
+        "url": "wss://eu-ws-quartz.unique.network",
+        "name": "Unique Europe node"
+      },
+      {
+        "url": "wss://us-ws-quartz.unique.network",
+        "name": "Unique US node"
       }
     ]
   },
@@ -313,35 +497,19 @@
         "symbol": "SDN",
         "name": "Shiden"
       }
-    ]
-  },
-  "4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f": {
-    "name": "Subsocial",
-    "chainIndex": 20,
-    "assets": [
+    ],
+    "nodes": [
       {
-        "symbol": "SUB",
-        "name": "Subsocial"
-      }
-    ]
-  },
-  "d42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2": {
-    "name": "Tinkernet",
-    "chainIndex": 32,
-    "assets": [
+        "url": "wss://rpc.shiden.astar.network",
+        "name": "StakeTechnologies node"
+      },
       {
-        "symbol": "TNKR",
-        "name": "Tinkernet"
-      }
-    ]
-  },
-  "0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d": {
-    "name": "Turing",
-    "chainIndex": 26,
-    "assets": [
+        "url": "wss://shiden-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
       {
-        "symbol": "TUR",
-        "name": "Turing"
+        "url": "wss://shiden.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
       }
     ]
   },
@@ -353,6 +521,12 @@
         "symbol": "VARA",
         "name": "Vara"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://rpc.vara-network.io",
+        "name": "Gear Tech node"
+      }
     ]
   },
   "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e": {
@@ -362,6 +536,20 @@
       {
         "symbol": "WND",
         "name": "Westend"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://westend-rpc.dwellir.com",
+        "name": "Dwellir node"
+      },
+      {
+        "url": "wss://rpc.ibp.network/westend",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://westend.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
       }
     ]
   },
@@ -373,6 +561,12 @@
         "symbol": "ZTG",
         "name": "Zeitgeist"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://zeitgeist.api.onfinality.io/public-ws",
+        "name": "OnFinality node"
+      }
     ]
   },
   "fe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d": {
@@ -382,6 +576,20 @@
       {
         "symbol": "GLMR",
         "name": "Moonbeam"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://wss.api.moonbeam.network",
+        "name": "Moonbeam Foundation node"
+      },
+      {
+        "url": "wss://moonbeam.ibp.network",
+        "name": "IBP1 node"
+      },
+      {
+        "url": "wss://moonbeam.public.curie.radiumblock.co/ws",
+        "name": "RadiumBlock node"
       }
     ]
   },
@@ -393,6 +601,20 @@
         "symbol": "MOVR",
         "name": "Moonriver"
       }
+    ],
+    "nodes": [
+      {
+        "url": "wss://wss.api.moonriver.moonbeam.network",
+        "name": "Moonbeam Foundation node"
+      },
+      {
+        "url": "wss://moonriver.public.blastapi.io",
+        "name": "Blast node"
+      },
+      {
+        "url": "wss://moonriver-rpc.dwellir.com",
+        "name": "Dwellir node"
+      }
     ]
   },
   "f6ee56e9c5277df5b4ce6ae9983ee88f3cbed27d31beeb98f9f84f997a1ab0b9": {
@@ -402,6 +624,12 @@
       {
         "symbol": "MYTH",
         "name": "Mythos"
+      }
+    ],
+    "nodes": [
+      {
+        "url": "wss://polkadot-mythos-rpc.polkadot.io",
+        "name": "Parity node"
       }
     ]
   }
