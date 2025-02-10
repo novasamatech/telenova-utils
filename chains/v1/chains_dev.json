@@ -60,8 +60,8 @@
         "name": "Novasama node"
       },
       {
-          "url": "wss://rpc-kusama-2.novasama-tech.org",
-          "name": "Novasama node"
+        "url": "wss://rpc-kusama-2.novasama-tech.org",
+        "name": "Novasama node"
       },
       {
         "url": "wss://rpc.ibp.network/kusama",
