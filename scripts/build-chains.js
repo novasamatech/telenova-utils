@@ -84,11 +84,6 @@ function getTransformedData(rawData) {
   const filteredData = rawData.filter(chain => chain.chainId in ALLOWED_CHAINS);
 
   return filteredData.map((chain) => {
-    const assets = fillAssetData(chain);
-    const nodes = chain.nodes
-      .filter(node => !node.url.includes('{'))
-      .map(node => ({ url: node.url, name: node.name }));
-
     return {
       name: chain.name,
       chainIndex: ALLOWED_CHAINS[chain.chainId].chainIndex,
@@ -97,8 +92,8 @@ function getTransformedData(rawData) {
       parentId: chain.parentId ? `0x${chain.parentId}` : undefined,
       icon: replaceUrl(chain.icon, 'chain'),
       options: chain.options?.includes("ethereumBased") ? ['evm'] : undefined,
-      assets,
-      nodes,
+      assets: fillAssetData(chain),
+      nodes: ALLOWED_CHAINS[chain.chainId].nodes,
     };
   });
 }
