@@ -58,11 +58,11 @@
       {
         "url": "wss://rpc-kusama-1.novasama-tech.org",
         "name": "Novasama node"
-    },
-    {
-        "url": "wss://rpc-kusama-2.novasama-tech.org",
-        "name": "Novasama node"
-    },
+      },
+      {
+          "url": "wss://rpc-kusama-2.novasama-tech.org",
+          "name": "Novasama node"
+      },
       {
         "url": "wss://rpc.ibp.network/kusama",
         "name": "IBP1 node"
@@ -205,7 +205,7 @@
   {
     "name": "Bifrost Kusama",
     "chainIndex": 5,
-    "addressPrefix": 6,
+    "addressPrefix": 0,
     "chainId": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Bifrost_Kusama.svg",
@@ -285,40 +285,6 @@
       {
         "url": "wss://altair.api.onfinality.io/public-ws",
         "name": "OnFinality node"
-      }
-    ]
-  },
-  {
-    "name": "Khala",
-    "chainIndex": 10,
-    "addressPrefix": 30,
-    "chainId": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Khala.svg",
-    "assets": [
-      {
-        "name": "Phala",
-        "assetId": 0,
-        "chainId": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-        "symbol": "PHA",
-        "precision": 12,
-        "type": "native",
-        "priceId": "pha",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Phala_(PHA).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://khala-api.phala.network/ws",
-        "name": "Phala node"
-      },
-      {
-        "url": "wss://khala-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://khala.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
       }
     ]
   },
@@ -403,12 +369,12 @@
     ],
     "nodes": [
       {
-        "url": "wss://acala-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
         "url": "wss://acala-polkadot.api.onfinality.io/public-ws",
         "name": "OnFinality node"
+      },
+      {
+        "url": "wss://acala-rpc.dwellir.com",
+        "name": "Dwellir node"
       }
     ]
   },

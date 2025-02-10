@@ -263,30 +263,6 @@
       }
     ]
   },
-  "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d": {
-    "name": "Khala",
-    "chainIndex": 10,
-    "assets": [
-      {
-        "symbol": "PHA",
-        "name": "Phala"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://khala-api.phala.network/ws",
-        "name": "Phala node"
-      },
-      {
-        "url": "wss://khala-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://khala.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
-      }
-    ]
-  },
   "411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21": {
     "name": "KILT",
     "chainIndex": 11,
