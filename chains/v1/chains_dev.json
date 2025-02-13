@@ -21,11 +21,11 @@
       {
         "url": "wss://rpc-polkadot-1.novasama-tech.org",
         "name": "Novasama node"
-    },
-    {
-        "url": "wss://rpc-polkadot-2.novasama-tech.org",
-        "name": "Novasama node"
-    },
+      },
+      {
+          "url": "wss://rpc-polkadot-2.novasama-tech.org",
+          "name": "Novasama node"
+      },
       {
         "url": "wss://rpc.ibp.network/polkadot",
         "name": "IBP1 node"

@@ -21,42 +21,18 @@
       {
         "url": "wss://rpc-polkadot-1.novasama-tech.org",
         "name": "Novasama node"
-    },
-    {
-        "url": "wss://rpc-polkadot-2.novasama-tech.org",
-        "name": "Novasama node"
-    },
+      },
+      {
+          "url": "wss://rpc-polkadot-2.novasama-tech.org",
+          "name": "Novasama node"
+      },
       {
         "url": "wss://rpc.ibp.network/polkadot",
         "name": "IBP1 node"
       },
       {
-        "url": "wss://polkadot.dotters.network",
-        "name": "IBP2 node"
-      },
-      {
-        "url": "wss://apps-rpc.polkadot.io",
-        "name": "Public node"
-      },
-      {
         "url": "wss://polkadot-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://dot-rpc.stakeworld.io",
-        "name": "Stakeworld node"
-      },
-      {
-        "url": "wss://polkadot.public.curie.radiumblock.co/ws",
-        "name": "Radium node"
-      },
-      {
-        "url": "wss://1rpc.io/dot",
-        "name": "Automata 1RPC node"
-      },
-      {
-        "url": "wss://rpc-polkadot.luckyfriday.io",
-        "name": "LuckyFriday node"
       }
     ]
   },
@@ -82,42 +58,18 @@
       {
         "url": "wss://rpc-kusama-1.novasama-tech.org",
         "name": "Novasama node"
-    },
-    {
+      },
+      {
         "url": "wss://rpc-kusama-2.novasama-tech.org",
         "name": "Novasama node"
-    },
+      },
       {
         "url": "wss://rpc.ibp.network/kusama",
         "name": "IBP1 node"
       },
       {
-        "url": "wss://kusama.dotters.network",
-        "name": "IBP2 node"
-      },
-      {
-        "url": "wss://apps-kusama-rpc.polkadot.io",
-        "name": "Public node"
-      },
-      {
         "url": "wss://kusama-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://rpc-kusama.luckyfriday.io",
-        "name": "LuckyFriday node"
-      },
-      {
-        "url": "wss://1rpc.io/ksm",
-        "name": "Automata 1RPC node"
-      },
-      {
-        "url": "wss://kusama.public.curie.radiumblock.co/ws",
-        "name": "Radium node"
-      },
-      {
-        "url": "wss://kusama.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
       }
     ]
   },
@@ -148,16 +100,8 @@
         "name": "IBP1 node"
       },
       {
-        "url": "wss://rpc.dotters.network/westend",
-        "name": "IBP2 node"
-      },
-      {
         "url": "wss://westend.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://westend.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
       }
     ]
   },
@@ -219,16 +163,8 @@
         "name": "IBP1 node"
       },
       {
-        "url": "wss://moonbeam.dotters.network",
-        "name": "IBP2 node"
-      },
-      {
         "url": "wss://moonbeam.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://moonbeam.public.blastapi.io",
-        "name": "Blast node"
       }
     ]
   },
@@ -262,10 +198,6 @@
       {
         "url": "wss://moonriver.public.blastapi.io",
         "name": "Blast node"
-      },
-      {
-        "url": "wss://moonriver.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
       },
       {
         "url": "wss://moonriver-rpc.dwellir.com",
@@ -304,17 +236,13 @@
       {
         "url": "wss://shiden.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://shiden.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
       }
     ]
   },
   {
     "name": "Bifrost Kusama",
     "chainIndex": 5,
-    "addressPrefix": 6,
+    "addressPrefix": 0,
     "chainId": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Bifrost_Kusama.svg",
@@ -331,10 +259,6 @@
       }
     ],
     "nodes": [
-      {
-        "url": "wss://bifrost-rpc.liebi.com/ws",
-        "name": "Liebi node"
-      },
       {
         "url": "wss://bifrost-rpc.dwellir.com",
         "name": "Dwellir node"
@@ -402,69 +326,6 @@
     ]
   },
   {
-    "name": "Parallel Heiko",
-    "chainIndex": 7,
-    "addressPrefix": 110,
-    "chainId": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/ParallelHeiko.svg",
-    "assets": [
-      {
-        "name": "Parallel Heiko",
-        "assetId": 0,
-        "chainId": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-        "symbol": "HKO",
-        "precision": 12,
-        "type": "native",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/HKO.svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://heiko-rpc.parallel.fi",
-        "name": "Parallel node"
-      }
-    ]
-  },
-  {
-    "name": "Khala",
-    "chainIndex": 10,
-    "addressPrefix": 30,
-    "chainId": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Khala.svg",
-    "assets": [
-      {
-        "name": "Phala",
-        "assetId": 0,
-        "chainId": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-        "symbol": "PHA",
-        "precision": 12,
-        "type": "native",
-        "priceId": "pha",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Phala_(PHA).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://khala-api.phala.network/ws",
-        "name": "Phala node"
-      },
-      {
-        "url": "wss://khala-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://khala.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://khala.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
-      }
-    ]
-  },
-  {
     "name": "KILT",
     "chainIndex": 11,
     "addressPrefix": 38,
@@ -485,20 +346,8 @@
     ],
     "nodes": [
       {
-        "url": "wss://kilt.ibp.network",
-        "name": "IBP1 node"
-      },
-      {
-        "url": "wss://kilt.dotters.network",
-        "name": "IBP2 node"
-      },
-      {
         "url": "wss://kilt-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://spiritnet.kilt.io/",
-        "name": "KILT Protocol node"
       }
     ]
   },
@@ -533,10 +382,6 @@
       {
         "url": "wss://us-ws-quartz.unique.network",
         "name": "Unique US node"
-      },
-      {
-        "url": "wss://asia-ws-quartz.unique.network",
-        "name": "Unique Asia node"
       }
     ]
   },
@@ -561,32 +406,8 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-acala.luckyfriday.io",
-        "name": "LuckyFriday node"
-      },
-      {
         "url": "wss://acala-polkadot.api.onfinality.io/public-ws",
         "name": "OnFinality node"
-      },
-      {
-        "url": "wss://acala-rpc-0.aca-api.network",
-        "name": "Acala Foundation 0 node"
-      },
-      {
-        "url": "wss://acala-rpc-1.aca-api.network",
-        "name": "Acala Foundation 1 node"
-      },
-      {
-        "url": "wss://acala-rpc-2.aca-api.network/ws",
-        "name": "Acala Foundation 2 node"
-      },
-      {
-        "url": "wss://acala-rpc-3.aca-api.network/ws",
-        "name": "Acala Foundation 3 node"
-      },
-      {
-        "url": "wss://acala.polkawallet.io",
-        "name": "Polkawallet node"
       },
       {
         "url": "wss://acala-rpc.dwellir.com",
@@ -619,45 +440,12 @@
         "name": "Astar node"
       },
       {
-        "url": "wss://astar-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
         "url": "wss://astar.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
       },
       {
         "url": "wss://astar.api.onfinality.io/public-ws",
         "name": "OnFinality node"
-      }
-    ]
-  },
-  {
-    "name": "Parallel",
-    "chainIndex": 15,
-    "addressPrefix": 172,
-    "chainId": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Parallel.svg",
-    "assets": [
-      {
-        "name": "Parallel",
-        "assetId": 0,
-        "chainId": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-        "symbol": "PARA",
-        "precision": 12,
-        "type": "native",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/PARA.svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://polkadot-parallel-rpc.parallel.fi",
-        "name": "Parallel node"
-      },
-      {
-        "url": "wss://parallel-rpc.dwellir.com",
-        "name": "Dwellir node"
       }
     ]
   },
@@ -680,7 +468,8 @@
         "feeBuffer": 1.1,
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDT.svg",
         "typeExtras": {
-          "assetId": "1984"
+          "assetId": "1984",
+          "isSufficient": true
         }
       },
       {
@@ -694,7 +483,8 @@
         "feeBuffer": 1.1,
         "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDC.svg",
         "typeExtras": {
-          "assetId": "1337"
+          "assetId": "1337",
+          "isSufficient": true
         }
       }
     ],
@@ -710,72 +500,6 @@
       {
         "url": "wss://statemint-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://statemint.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
-      }
-    ]
-  },
-  {
-    "name": "Robonomics",
-    "chainIndex": 17,
-    "addressPrefix": 32,
-    "chainId": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Robonomics.svg",
-    "assets": [
-      {
-        "name": "Robonomics",
-        "assetId": 0,
-        "chainId": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-        "symbol": "XRT",
-        "precision": 9,
-        "type": "native",
-        "priceId": "robonomics-network",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Robonomics_(XRT).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://kusama.rpc.robonomics.network/",
-        "name": "Airalab node"
-      },
-      {
-        "url": "wss://robonomics.0xsamsara.com",
-        "name": "Samsara node"
-      }
-    ]
-  },
-  {
-    "name": "Kintsugi",
-    "chainIndex": 6,
-    "addressPrefix": 2092,
-    "chainId": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Kintsugi.svg",
-    "assets": [
-      {
-        "name": "Kintsugi",
-        "assetId": 0,
-        "chainId": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
-        "symbol": "KINT",
-        "precision": 12,
-        "type": "orml",
-        "priceId": "kintsugi",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Kintsugi_(KINT).svg",
-        "typeExtras": {
-          "currencyIdScale": "0x000c",
-          "currencyIdType": "InterbtcPrimitivesCurrencyId",
-          "existentialDeposit": "0",
-          "transfersEnabled": true
-        }
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://api-kusama.interlay.io/parachain",
-        "name": "Kintsugi Labs node"
       }
     ]
   },
@@ -802,44 +526,6 @@
       {
         "url": "wss://zeitgeist.api.onfinality.io/public-ws",
         "name": "OnFinality node"
-      },
-      {
-        "url": "wss://main.rpc.zeitgeist.pm/ws",
-        "name": "Zeitgeist node"
-      }
-    ]
-  },
-  {
-    "name": "Subsocial",
-    "chainIndex": 20,
-    "addressPrefix": 28,
-    "chainId": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Subsocial_Parachain.svg",
-    "assets": [
-      {
-        "name": "Subsocial",
-        "assetId": 0,
-        "chainId": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-        "symbol": "SUB",
-        "precision": 10,
-        "type": "native",
-        "priceId": "subsocial",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Subsocial_(SUB).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://subsocial-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://para.f3joule.space",
-        "name": "Subsocial node"
-      },
-      {
-        "url": "wss://para.subsocial.network",
-        "name": "Dappforce node"
       }
     ]
   },
@@ -934,50 +620,6 @@
       {
         "url": "wss://hydradx-rpc.dwellir.com",
         "name": "Dwellir node"
-      },
-      {
-        "url": "wss://rpc.hydradx.cloud",
-        "name": "Galactic Council node"
-      }
-    ]
-  },
-  {
-    "name": "Interlay",
-    "chainIndex": 24,
-    "addressPrefix": 2032,
-    "chainId": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-    "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Interlay.svg",
-    "assets": [
-      {
-        "name": "Interlay",
-        "assetId": 0,
-        "chainId": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-        "symbol": "INTR",
-        "precision": 10,
-        "type": "orml",
-        "priceId": "interlay",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Interlay_(INTR).svg",
-        "typeExtras": {
-          "currencyIdScale": "0x0002",
-          "currencyIdType": "InterbtcPrimitivesCurrencyId",
-          "existentialDeposit": "0",
-          "transfersEnabled": true
-        }
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://api.interlay.io/parachain",
-        "name": "Kintsugi Labs node"
-      },
-      {
-        "url": "wss://interlay-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://rpc-interlay.luckyfriday.io/",
-        "name": "LuckyFriday node"
       }
     ]
   },
@@ -1012,40 +654,6 @@
       {
         "url": "wss://phala.public.curie.radiumblock.co/ws",
         "name": "RadiumBlock node"
-      },
-      {
-        "url": "wss://phala.api.onfinality.io/public-ws",
-        "name": "OnFinality node"
-      }
-    ]
-  },
-  {
-    "name": "Turing",
-    "chainIndex": 26,
-    "addressPrefix": 51,
-    "chainId": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Turing.svg",
-    "assets": [
-      {
-        "name": "Turing",
-        "assetId": 0,
-        "chainId": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
-        "symbol": "TUR",
-        "precision": 10,
-        "type": "native",
-        "priceId": "turing-network",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Turing_(TUR).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://rpc.turing.oak.tech",
-        "name": "Turing node"
-      },
-      {
-        "url": "wss://turing-rpc.dwellir.com",
-        "name": "Dwellir node"
       }
     ]
   },
@@ -1069,7 +677,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://ws.azero.dev",
+        "url": "wss://aleph-zero.api.onfinality.io/public-ws",
         "name": "Aleph Zero node"
       }
     ]
@@ -1077,7 +685,7 @@
   {
     "name": "Bifrost Polkadot",
     "chainIndex": 28,
-    "addressPrefix": 6,
+    "addressPrefix": 0,
     "chainId": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Bifrost_Polkadot.svg",
@@ -1101,10 +709,6 @@
       {
         "url": "wss://bifrost-polkadot.dotters.network",
         "name": "IBP2 node"
-      },
-      {
-        "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-        "name": "Liebi node"
       }
     ]
   },
@@ -1139,42 +743,6 @@
     ]
   },
   {
-    "name": "Mangata X",
-    "chainIndex": 30,
-    "addressPrefix": 42,
-    "chainId": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/MangataX.svg",
-    "assets": [
-      {
-        "name": "Mangata X",
-        "assetId": 0,
-        "chainId": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
-        "symbol": "MGX",
-        "precision": 18,
-        "type": "orml",
-        "priceId": "mangata-x",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Mangata_X_(MGX).svg",
-        "typeExtras": {
-          "currencyIdScale": "0x00000000",
-          "currencyIdType": "u32",
-          "existentialDeposit": "0",
-          "transfersEnabled": true
-        }
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://kusama-rpc.mangata.online",
-        "name": "Mangata node"
-      },
-      {
-        "url": "wss://kusama-archive.mangata.online",
-        "name": "Mangata archive node"
-      }
-    ]
-  },
-  {
     "name": "Imbue",
     "chainIndex": 31,
     "addressPrefix": 42,
@@ -1196,31 +764,6 @@
       {
         "url": "wss://kusama.imbuenetwork.com",
         "name": "Imbue node"
-      }
-    ]
-  },
-  {
-    "name": "Tinkernet",
-    "chainIndex": 32,
-    "addressPrefix": 117,
-    "chainId": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Tinkernet.svg",
-    "assets": [
-      {
-        "name": "Tinkernet",
-        "assetId": 0,
-        "chainId": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
-        "symbol": "TNKR",
-        "precision": 12,
-        "type": "native",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Tinkernet_(TNKR).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://tinkernet-rpc.dwellir.com",
-        "name": "Dwellir node"
       }
     ]
   },
@@ -1383,28 +926,8 @@
     ],
     "nodes": [
       {
-        "url": "wss://avail-mainnet.public.blastapi.io/",
-        "name": "Bware node"
-      },
-      {
         "url": "wss://avail-rpc.rubynodes.io/",
         "name": "RubyNode node"
-      },
-      {
-        "url": "wss://avail-us.brightlystake.com",
-        "name": "BrightlyStake node"
-      },
-      {
-        "url": "wss://rpc-avail.globalstake.io",
-        "name": "GlobalStake node"
-      },
-      {
-        "url": "wss://avail.rpc.bountyblok.io",
-        "name": "Bountyblok node"
-      },
-      {
-        "url": "wss://avail.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
       }
     ]
   }
