@@ -14,7 +14,7 @@
         "precision": 10,
         "type": "native",
         "priceId": "polkadot",
-        "icon": "DOT.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Polkadot_(DOT).svg"
       }
     ],
     "nodes": [
@@ -47,7 +47,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "kusama",
-        "icon": "KSM.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Kusama_(KSM).svg"
       }
     ],
     "nodes": [
@@ -79,7 +79,7 @@
         "symbol": "WND",
         "precision": 12,
         "type": "native",
-        "icon": "WND.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Westend_(WND).svg"
       }
     ],
     "nodes": [
@@ -113,7 +113,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "karura",
-        "icon": "KAR.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Karura_(KAR).svg"
       }
     ],
     "nodes": [
@@ -142,7 +142,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "moonriver",
-        "icon": "MOVR.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Moonriver_(MOVR).svg"
       }
     ],
     "nodes": [
@@ -176,7 +176,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "shiden",
-        "icon": "SDN.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Shiden_(SDN).svg"
       }
     ],
     "nodes": [
@@ -210,7 +210,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "bifrost-native-coin",
-        "icon": "BNC.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Bifrost_(BNC).svg"
       }
     ],
     "nodes": [
@@ -240,7 +240,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "basilisk",
-        "icon": "BSX.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Basilisk_(BSX).svg"
       }
     ],
     "nodes": [
@@ -270,7 +270,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "altair",
-        "icon": "AIR.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Altair_(AIR).svg"
       }
     ],
     "nodes": [
@@ -296,7 +296,7 @@
         "precision": 15,
         "type": "native",
         "priceId": "kilt-protocol",
-        "icon": "KILT.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Kilt_(KILT).svg"
       }
     ],
     "nodes": [
@@ -322,7 +322,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "quartz",
-        "icon": "QTZ.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Quartz_(QTZ).svg"
       }
     ],
     "nodes": [
@@ -356,7 +356,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "acala",
-        "icon": "ACA.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Acala_(ACA).svg"
       }
     ],
     "nodes": [
@@ -389,7 +389,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "moonbeam",
-        "icon": "GLMR.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Moonbeam_(GLMR).svg"
       }
     ],
     "nodes": [
@@ -423,7 +423,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "astar",
-        "icon": "ASTR.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Astar_(ASTR).svg"
       }
     ],
     "nodes": [
@@ -458,7 +458,7 @@
         "type": "statemine",
         "priceId": "tether",
         "feeBuffer": 1.1,
-        "icon": "USDT.svg",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(USDT).svg",
         "typeExtras": {
           "assetId": "1984",
           "isSufficient": true
@@ -473,7 +473,7 @@
         "type": "statemine",
         "priceId": "usd-coin",
         "feeBuffer": 1.1,
-        "icon": "USDC.svg",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(USDC).svg",
         "typeExtras": {
           "assetId": "1337",
           "isSufficient": true
@@ -511,7 +511,7 @@
         "precision": 10,
         "type": "native",
         "priceId": "zeitgeist",
-        "icon": "ZTG.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Zeitgeist_(ZTG).svg"
       }
     ],
     "nodes": [
@@ -537,7 +537,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "integritee",
-        "icon": "TEER.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Integritee_Parachain_(TEER).svg"
       }
     ],
     "nodes": [
@@ -567,7 +567,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "centrifuge",
-        "icon": "CFG.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Centrifuge_(CFG).svg"
       }
     ],
     "nodes": [
@@ -597,7 +597,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "hydradx",
-        "icon": "HDX.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Hydration_(HDX).svg"
       }
     ],
     "nodes": [
@@ -631,7 +631,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "pha",
-        "icon": "PHA.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Phala_(PHA).svg"
       }
     ],
     "nodes": [
@@ -664,7 +664,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "aleph-zero",
-        "icon": "AZERO.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Aleph_Zero_(AZERO).svg"
       }
     ],
     "nodes": [
@@ -690,7 +690,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "bifrost-native-coin",
-        "icon": "BNC.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Bifrost_(BNC).svg"
       }
     ],
     "nodes": [
@@ -711,7 +711,18 @@
     "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Heima.svg",
-    "assets": [],
+    "assets": [
+      {
+        "name": "Heima",
+        "assetId": 0,
+        "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+        "symbol": "HEI",
+        "precision": 18,
+        "type": "native",
+        "priceId": "heima",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(HEI).svg"
+      }
+    ],
     "nodes": [
       {
         "url": "wss://rpc.litentry-parachain.litentry.io",
@@ -738,7 +749,7 @@
         "symbol": "AMPE",
         "precision": 12,
         "type": "native",
-        "icon": "AMPE.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Amplitude_(AMPE).svg"
       }
     ],
     "nodes": [
@@ -751,7 +762,7 @@
   {
     "name": "Pendulum",
     "chainIndex": 34,
-    "addressPrefix": 56,
+    "addressPrefix": 0,
     "chainId": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Pendulum.svg",
@@ -764,7 +775,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "pendulum-chain",
-        "icon": "PEN.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Pendulum_(PEN).svg"
       }
     ],
     "nodes": [
@@ -789,7 +800,7 @@
         "precision": 12,
         "type": "native",
         "priceId": "vara-network",
-        "icon": "VARA.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Vara_(VARA).svg"
       }
     ],
     "nodes": [
@@ -815,7 +826,7 @@
         "precision": 10,
         "type": "native",
         "priceId": "polimec",
-        "icon": "PLMC.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Polimec_(PLMC).svg"
       }
     ],
     "nodes": [
@@ -852,7 +863,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "mythos",
-        "icon": "MYTH.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(MYTH).svg"
       }
     ],
     "nodes": [
@@ -877,7 +888,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "avail",
-        "icon": "AVAIL.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Avail_(AVAIL).svg"
       }
     ],
     "nodes": [

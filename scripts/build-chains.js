@@ -112,43 +112,32 @@ function replaceUrl(url, type, name = undefined) {
         `/icons/${TELENOVA_CONFIG_VERSION}/chains/${lastPartOfUrl}`
       );
     case "asset":
-      const tickerNames = [processedName, processedName.split("-")[0]];
-      const relativePath = findFileByTicker(tickerNames, ASSET_ICONS_DIR);
-      if (!relativePath) {
-        console.error(`Can't find file for: ${processedName} in: ${ASSET_ICONS_DIR}`);
-        return changedBaseUrl.replace(/\/icons\/.*/, `/${processedName}`);
+      const tokenSymbol = lastPartOfUrl.replace(/\.svg$/, '');
+      const iconFileName = findIconFileByToken(tokenSymbol, ASSET_ICONS_DIR);
+
+      if (!iconFileName) {
+        console.error(`Can't find icon file for token: ${tokenSymbol} in: ${ASSET_ICONS_DIR}`);
+        return changedBaseUrl.replace(/\/icons\/.*/, `/${tokenSymbol}`);
       }
 
-      return changedBaseUrl.replace(/\/icons\/.*/, `/${relativePath}`);
+      return `https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/${iconFileName}`;
     default:
       throw new Error("Unknown type: " + type);
   }
 }
 
-function findFileByTicker(tickers, dirPath) {
-  const [fullName, shortName, mappedName] = tickers;
-
+function findIconFileByToken(tokenSymbol, dirPath) {
   try {
     const files = fs.readdirSync(dirPath);
-    // Loop through files to find match based on ticker pattern
-    for (let i = 0; i < files.length; i++) {
-      // Check if file satisfies ticker pattern
-      const currentFile = files[i];
+    const targetFile = files.find(file => {
+      const pattern = new RegExp(`\\(${tokenSymbol}\\)\\.svg$`, "i");
+      return file.match(pattern);
+    });
 
-      const byFullName = new RegExp(`^${fullName}.svg\\b|\\(${fullName}\\)\\.svg`, "i");
-      const byShortName = new RegExp(`^${shortName}.svg\\b|\\(${shortName}\\)\\.svg`, "i");
-      const byMappedName = new RegExp(`^${mappedName}.svg\\b|\\(${mappedName}\\)\\.svg`, "i");
-
-      if (
-          currentFile.match(byFullName)
-          || currentFile.match(byShortName)
-          || currentFile.match(byMappedName)
-      ) {
-        return path.join(dirPath, currentFile);
-      }
-    }
+    return targetFile || null;
   } catch (error) {
-    throw new Error(error);
+    console.error(`Error reading directory ${dirPath}:`, error);
+    return null;
   }
 }
 
