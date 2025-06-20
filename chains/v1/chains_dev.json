@@ -19,12 +19,8 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-polkadot-1.novasama-tech.org",
+        "url": "wss://rpc-polkadot.novasama-tech.org",
         "name": "Novasama node"
-      },
-      {
-          "url": "wss://rpc-polkadot-2.novasama-tech.org",
-          "name": "Novasama node"
       },
       {
         "url": "wss://rpc.ibp.network/polkadot",
@@ -56,11 +52,7 @@
     ],
     "nodes": [
       {
-        "url": "wss://rpc-kusama-1.novasama-tech.org",
-        "name": "Novasama node"
-      },
-      {
-        "url": "wss://rpc-kusama-2.novasama-tech.org",
+        "url": "wss://rpc-kusama.novasama-tech.org",
         "name": "Novasama node"
       },
       {
@@ -466,7 +458,7 @@
         "type": "statemine",
         "priceId": "tether",
         "feeBuffer": 1.1,
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDT.svg",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(USDT).svg",
         "typeExtras": {
           "assetId": "1984",
           "isSufficient": true
@@ -481,7 +473,7 @@
         "type": "statemine",
         "priceId": "usd-coin",
         "feeBuffer": 1.1,
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/USDC.svg",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(USDC).svg",
         "typeExtras": {
           "assetId": "1337",
           "isSufficient": true
@@ -592,7 +584,7 @@
   {
     "name": "Hydration",
     "chainIndex": 23,
-    "addressPrefix": 63,
+    "addressPrefix": 0,
     "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Hydration.svg",
@@ -713,22 +705,22 @@
     ]
   },
   {
-    "name": "Litentry",
+    "name": "Heima",
     "chainIndex": 29,
     "addressPrefix": 31,
     "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Litentry.svg",
+    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Heima.svg",
     "assets": [
       {
-        "name": "Litentry",
+        "name": "Heima",
         "assetId": 0,
         "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
-        "symbol": "LIT",
+        "symbol": "HEI",
         "precision": 18,
         "type": "native",
-        "priceId": "litentry",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Litentry_(LIT).svg"
+        "priceId": "heima",
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(HEI).svg"
       }
     ],
     "nodes": [
@@ -743,34 +735,9 @@
     ]
   },
   {
-    "name": "Imbue",
-    "chainIndex": 31,
-    "addressPrefix": 42,
-    "chainId": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
-    "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Imbue.svg",
-    "assets": [
-      {
-        "name": "Imbue",
-        "assetId": 0,
-        "chainId": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
-        "symbol": "IMBU",
-        "precision": 12,
-        "type": "native",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Imbue_(IMBU).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://kusama.imbuenetwork.com",
-        "name": "Imbue node"
-      }
-    ]
-  },
-  {
     "name": "Amplitude",
     "chainIndex": 33,
-    "addressPrefix": 57,
+    "addressPrefix": 0,
     "chainId": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
     "parentId": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Amplitude.svg",
@@ -795,7 +762,7 @@
   {
     "name": "Pendulum",
     "chainIndex": 34,
-    "addressPrefix": 56,
+    "addressPrefix": 0,
     "chainId": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
     "parentId": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
     "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Pendulum.svg",
@@ -896,7 +863,7 @@
         "precision": 18,
         "type": "native",
         "priceId": "mythos",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/MYTH.svg"
+        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/(MYTH).svg"
       }
     ],
     "nodes": [
