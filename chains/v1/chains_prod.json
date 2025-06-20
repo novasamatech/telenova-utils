@@ -66,38 +66,6 @@
     ]
   },
   {
-    "name": "Westend (TESTNET)",
-    "chainIndex": 2,
-    "addressPrefix": 42,
-    "chainId": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-    "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/chains/Westend_Testnet.svg",
-    "assets": [
-      {
-        "name": "Westend",
-        "assetId": 0,
-        "chainId": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-        "symbol": "WND",
-        "precision": 12,
-        "type": "native",
-        "icon": "https://raw.githubusercontent.com/novasamatech/telenova-utils/main/icons/v1/assets/color/Westend_(WND).svg"
-      }
-    ],
-    "nodes": [
-      {
-        "url": "wss://westend-rpc.dwellir.com",
-        "name": "Dwellir node"
-      },
-      {
-        "url": "wss://rpc.ibp.network/westend",
-        "name": "IBP1 node"
-      },
-      {
-        "url": "wss://westend.public.curie.radiumblock.co/ws",
-        "name": "RadiumBlock node"
-      }
-    ]
-  },
-  {
     "name": "Karura",
     "chainIndex": 3,
     "addressPrefix": 8,
